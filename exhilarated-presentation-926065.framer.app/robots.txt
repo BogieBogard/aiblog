@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://exhilarated-presentation-926065.framer.app/sitemap.xml

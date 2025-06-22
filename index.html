@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agentic Self-Improvement in LLMs</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>Agentic Self-Improvement in LLMs</h1>
+      <p>A Prototype for Trustworthy, Self-Correcting AI Systems</p>
+    </header>
+    <main>
+      <section>
+        <h2>Overview</h2>
+        <p>This project explores a framework for agentic self-improvement in LLM-powered systems. The aim is to showcase how large language models can assess, critique, and iteratively improve their own outputs with minimal human intervention. The focus is on three core pillars of self-improvement.</p>
+      </section>
+
+      <section>
+        <h2>1. Citation Verification via Hybrid AI + Software</h2>
+        <div class="graphic">[Graphic Placeholder: LLM & Document Cross-Check]</div>
+        <p>LLMs often hallucinate citations. To address this, the model’s citations are automatically verified against the source documents using both exact and fuzzy matching. The result is a score from 0–100% indicating the reliability of the citation.</p>
+        <p>Traditional software searches for exact quote matches first, then semantic similarity. This helps determine how well a model’s quote reflects its claimed source.</p>
+      </section>
+
+      <section>
+        <h2>2. Multi-Agent Grading Across Models</h2>
+        <div class="graphic">[Graphic Placeholder: Model Panel Voting System]</div>
+        <p>Instead of relying on a single LLM, responses are compared across APIs (e.g., OpenAI, Claude, Gemini, LLaMA). Each response is generated through multiple prompt variants and then scored by a panel of grading agents.</p>
+        <p>This enables the system to present the best possible response based on a peer-reviewed consensus, similar to academic peer review.</p>
+      </section>
+
+      <section>
+        <h2>3. Unproductive Loop Detection & Self-Correction</h2>
+        <div class="graphic">[Graphic Placeholder: Loop Detected → Restart/Checkpoint]</div>
+        <p>When models get stuck in repetitive or unproductive loops, a review mechanism checks the past few steps against a set of known failure patterns. If the loop is detected, the system can revert to a previous checkpoint or try an alternative prompt strategy.</p>
+        <p>This simulates something like “meta-cognition,” allowing the model to realize when it’s stuck—and pivot.</p>
+      </section>
+
+      <section>
+        <h2>Conclusion</h2>
+        <p>The long-term vision is a prototype where LLMs not only generate outputs, but verify claims, receive peer-grade evaluations, and self-correct intelligently. Through modular and testable designs like this, we move one step closer to reliable and trustworthy autonomous agents.</p>
+      </section>
+    </main>
+    <footer>
+      &copy; 2025 Your Name • Created with love for AI self-improvement research
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
